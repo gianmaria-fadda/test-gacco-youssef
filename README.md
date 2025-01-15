@@ -37,7 +37,7 @@ echo "Libro: $book1->title, Autore: $book1->author, Prezzo: $book1->price, Anno:
 
 <h1>Come esce in pagina l'esercizio completato</h1>
 
-<img src="https://github.com/user-attachments/assets/49eaeae3-526c-4492-be18-6fec487c285e" alt="Girl in a jacket">
+<img src="https://github.com/user-attachments/assets/49eaeae3-526c-4492-be18-6fec487c285e" alt="Es.1">
 
 2)          Errato
 
@@ -55,3 +55,20 @@ addTodo({ id: 3, descrizione: "Studiare JavaScript", completato: false });
 console.log(todos);
 
 2)          Corretto
+
+const todos = [
+    { id: 1, description: "Fare la spesa", completed: false },
+    { id: 2, description: "Pulire la casa", completed: false }
+];
+
+function addTodo(todo) {
+    todos.push(todo)
+}
+
+addTodo({ id: 3, description: "Studiare JavaScript", completed: false });
+
+console.log(todos);
+
+<h1>Come esce in pagina l'esercizio completato</h1>
+
+<img src="https://github.com/user-attachments/assets/2579d728-324e-44f0-9201-14e411553bbd" alt="Es.2">

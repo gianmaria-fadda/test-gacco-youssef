@@ -7,6 +7,6 @@ function addTodo(todo) {
     todos.push(todo)
 }
 
-addTodo({ id: 3, descrizione: "Studiare JavaScript", completato: false });
+addTodo({ id: 3, description: "Studiare JavaScript", completed: false });
 
 console.log(todos);
