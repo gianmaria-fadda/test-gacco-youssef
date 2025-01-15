@@ -39,3 +39,19 @@ echo "Libro: $book1->title, Autore: $book1->author, Prezzo: $book1->price, Anno:
 
 <img src="https://github.com/user-attachments/assets/49eaeae3-526c-4492-be18-6fec487c285e" alt="Girl in a jacket">
 
+2)          Errato
+
+const todos = [
+    { id: 1, description: "Fare la spesa", completed: false },
+    { id: 2, description: "Pulire la casa", completed: false }
+];
+
+function addTodo(todo) {
+    todos.push(todo)
+}
+
+addTodo({ id: 3, descrizione: "Studiare JavaScript", completato: false });
+
+console.log(todos);
+
+2)          Corretto
